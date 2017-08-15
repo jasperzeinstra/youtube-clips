@@ -1,0 +1,15 @@
+.iframe-wrapper { height: 0; padding-bottom: 60%; position: relative; }
+.iframe-wrapper iframe { width: 100%; height: 100%; position: absolute; top: 0; left: 0; }
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th { vertical-align: middle; }
+
+#controls { text-align: center; background: #f8f8f8; border: 1px solid #e7e7e7; border-radius: 4px; padding: 5px; margin: 5px 0 0; }
+
+#btn-play .glyphicon-play { display: inline-block; }
+#btn-play .glyphicon-pause { display: none; }
+#btn-play.on .glyphicon-play { display: none; }
+#btn-play.on .glyphicon-pause { display: inline-block; }
+
+#btn-playback-rate .glyphicon-picture { display: none; }
+#btn-playback-rate .glyphicon-facetime-video { display: inline-block; }
+#btn-playback-rate.on .glyphicon-picture { display: inline-block; }
+#btn-playback-rate.on .glyphicon-facetime-video { display: none; }
